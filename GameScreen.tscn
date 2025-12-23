@@ -1,0 +1,738 @@
+[gd_scene load_steps=87 format=3 uid="uid://ynmex55fi0wh"]
+
+[ext_resource type="Script" uid="uid://dsnlgnjur76a8" path="res://GameScreen.cs" id="1_bdpf8"]
+[ext_resource type="Texture2D" uid="uid://bp8k7gbf5a0jw" path="res://picnic tablecloth background.png" id="1_mnua3"]
+[ext_resource type="Texture2D" uid="uid://bdka3nthbb4tj" path="res://kitchen background.png" id="1_vau7r"]
+[ext_resource type="Texture2D" uid="uid://cmokrr43tovtx" path="res://paper overlay.png" id="2_qufq8"]
+[ext_resource type="Texture2D" uid="uid://dquwhpijvqptd" path="res://burger states/0.png" id="4_3g4gq"]
+[ext_resource type="Texture2D" uid="uid://bk6p1kjf0v728" path="res://closet background.png" id="5_0n56p"]
+[ext_resource type="Texture2D" uid="uid://darvprvd4tfo1" path="res://burger states/1.png" id="5_4lbta"]
+[ext_resource type="Texture2D" uid="uid://cuclc3wh1nlhr" path="res://scoob.png" id="5_7vgwn"]
+[ext_resource type="FontFile" uid="uid://bvqjp6xhqh2cb" path="res://OriginalSurfer-Regular.ttf" id="6_7vgwn"]
+[ext_resource type="Texture2D" uid="uid://e5dxlhub204p" path="res://burger states/2.png" id="6_ev5id"]
+[ext_resource type="Texture2D" uid="uid://do7hyvt6py81b" path="res://cute-coquette-arrow-png.webp" id="6_hubxm"]
+[ext_resource type="Texture2D" uid="uid://cpov613rbyq14" path="res://recipe book.png" id="7_8jmft"]
+[ext_resource type="Texture2D" uid="uid://c84pgs6kqafkq" path="res://wardrobe.png" id="7_8wqyk"]
+[ext_resource type="Texture2D" uid="uid://ccv5myf80ll8g" path="res://burger states/3.png" id="7_rbq5v"]
+[ext_resource type="Texture2D" uid="uid://c8uauykgmohmy" path="res://burger states/4.png" id="8_hlsgn"]
+[ext_resource type="Texture2D" uid="uid://jh3yljnsqnmp" path="res://burger states/5.png" id="9_2blok"]
+[ext_resource type="Texture2D" uid="uid://c4s6cghow5trv" path="res://burger states/6.png" id="10_rhe5m"]
+[ext_resource type="Texture2D" uid="uid://c2kihokd5p0st" path="res://burger states/7.png" id="11_7402p"]
+[ext_resource type="Texture2D" uid="uid://cl5ed7nth105p" path="res://ingredients/Whisk.png" id="11_f2b0i"]
+[ext_resource type="Texture2D" uid="uid://j4qsvrou1mr" path="res://burger states/6.5.png" id="11_q6c7k"]
+[ext_resource type="AudioStream" uid="uid://c6glcwinea1kl" path="res://503138__lilmati__retro-hot-girl-looking-at-you.wav" id="11_rccfg"]
+[ext_resource type="Texture2D" uid="uid://dficnpseat8gn" path="res://recipe book open.png" id="11_vlf8u"]
+[ext_resource type="Texture2D" uid="uid://dserbwb1rl4x3" path="res://ingredients/Buttermilk.png" id="12_8roi7"]
+[ext_resource type="Texture2D" uid="uid://ujsb01xkjhcd" path="res://exit button.png" id="12_78ypk"]
+[ext_resource type="AudioStream" uid="uid://dxn87m3rjdb4" path="res://445972__breviceps__click-cursor-sfx-scroll-through-files-folder-cabinet.wav" id="12_hubxm"]
+[ext_resource type="Texture2D" uid="uid://fau1oow1eec7" path="res://burger states/8.png" id="12_q6c7k"]
+[ext_resource type="Texture2D" uid="uid://fy1ee84qitxy" path="res://ingredients/EggCarton.png" id="13_c0ejx"]
+[ext_resource type="Texture2D" uid="uid://cwl4h5f3ubssx" path="res://burger states/9.png" id="13_qlu6c"]
+[ext_resource type="Texture2D" uid="uid://ege5x0mf3528" path="res://BACK TO KITCHEN.png" id="13_s7woo"]
+[ext_resource type="Texture2D" uid="uid://b51svni1rkfkb" path="res://burger states/10.png" id="14_e5e65"]
+[ext_resource type="Texture2D" uid="uid://c3hkoerpg46vi" path="res://ingredients/Colorants.png" id="14_yluqd"]
+[ext_resource type="Texture2D" uid="uid://dx0r52xv0niyc" path="res://ingredients/BakingPowder.png" id="15_l1y6u"]
+[ext_resource type="Texture2D" uid="uid://b453ljkuagd64" path="res://burger states/11.png" id="15_nly72"]
+[ext_resource type="Texture2D" uid="uid://cvi547076k82f" path="res://pause button.png" id="15_yhqab"]
+[ext_resource type="Texture2D" uid="uid://cdtnebx0r5ji0" path="res://burger states/12.png" id="16_buco2"]
+[ext_resource type="Texture2D" uid="uid://7r1dkufhsgm8" path="res://Burger Cake Video Recipe.png" id="16_r4uab"]
+[ext_resource type="Texture2D" uid="uid://584iu77wabrn" path="res://restart button.png" id="16_s7woo"]
+[ext_resource type="Texture2D" uid="uid://c3mqn3hyilv76" path="res://ingredients/Butter.png" id="16_y8rfx"]
+[ext_resource type="Texture2D" uid="uid://bwl7w36ydki5a" path="res://play button.png" id="16_yhqab"]
+[ext_resource type="Texture2D" uid="uid://dbxyc823a4swm" path="res://ingredients/Shelf.png" id="17_8roi7"]
+[ext_resource type="Texture2D" uid="uid://bghq22truwlnl" path="res://ingredients/Flour.png" id="17_je37n"]
+[ext_resource type="Texture2D" uid="uid://dec4mkff8nba5" path="res://rewind button.png" id="17_r4uab"]
+[ext_resource type="Texture2D" uid="uid://c5ex4lu7fpjlo" path="res://burger states/13.png" id="17_rjx78"]
+[ext_resource type="VideoStream" uid="uid://bbw022tly8ano" path="res://The Sims 4 Burger Cake.ogv" id="17_s7woo"]
+[ext_resource type="Texture2D" uid="uid://dwqfo4bsrdl1m" path="res://Coming Soon.png" id="17_wggpi"]
+[ext_resource type="Texture2D" uid="uid://b3hm1i58becby" path="res://ingredients/Sugar.png" id="18_3g4gq"]
+[ext_resource type="Texture2D" uid="uid://bhtaijdwlo0tx" path="res://burger states/14.png" id="18_u0wbh"]
+[ext_resource type="Texture2D" uid="uid://cayk14mvwqx5v" path="res://forward button.png" id="18_wggpi"]
+[ext_resource type="Texture2D" uid="uid://cyahs4lm6hymy" path="res://ingredients/Oats.webp" id="19_4lbta"]
+[ext_resource type="Texture2D" uid="uid://d0yt28l6sj3iu" path="res://burger states/16.png" id="20_67154"]
+[ext_resource type="Texture2D" uid="uid://br432glystb5b" path="res://ingredients/Cocoa.png" id="20_ev5id"]
+[ext_resource type="Texture2D" uid="uid://diouki2g8pki2" path="res://burger states/17.png" id="21_ig34a"]
+[ext_resource type="Texture2D" uid="uid://bah8m48uww5my" path="res://ingredients/VanillaPowder.png" id="21_rbq5v"]
+[ext_resource type="Texture2D" uid="uid://byr572c2svd5d" path="res://ingredients/ChocolatePowder.webp" id="22_hlsgn"]
+[ext_resource type="Texture2D" uid="uid://5atslt47a1ld" path="res://burger states/18.png" id="22_qoulm"]
+[ext_resource type="Texture2D" uid="uid://dirujanhyeksw" path="res://ingredients/Fondant.png" id="23_2blok"]
+[ext_resource type="Texture2D" uid="uid://civsi8j2u5k5s" path="res://burger states/19.png" id="23_giua3"]
+[ext_resource type="Texture2D" uid="uid://bmdyc8u6xwxk2" path="res://burger states/20.png" id="24_cpoxy"]
+[ext_resource type="Texture2D" uid="uid://bj2lkrn06fv3g" path="res://burger states/21.png" id="25_wsiwa"]
+[ext_resource type="Texture2D" uid="uid://c610qcdp0e2ui" path="res://burger states/22.png" id="26_h6w67"]
+[ext_resource type="Texture2D" uid="uid://dnhiculmdw1vh" path="res://ingredients/Milk.png" id="26_yluqd"]
+[ext_resource type="Texture2D" uid="uid://xaxkdsayajeu" path="res://burger states/23.png" id="27_jr7n1"]
+[ext_resource type="Texture2D" uid="uid://bvkqwopvyhlam" path="res://ingredients/Salt.png" id="27_l1y6u"]
+[ext_resource type="Texture2D" uid="uid://dbf5m22bondex" path="res://burger states/24.png" id="28_jyg81"]
+[ext_resource type="Texture2D" uid="uid://dqh1tugsfvpcl" path="res://burger states/25.png" id="29_w8anh"]
+[ext_resource type="Texture2D" uid="uid://bgpu883bjdwu5" path="res://burger states/26.png" id="30_jnm8a"]
+[ext_resource type="Texture2D" uid="uid://byjgma2o7v27u" path="res://burger states/27.png" id="31_6fitq"]
+[ext_resource type="Texture2D" uid="uid://2d7m7m7di81l" path="res://burger states/28.png" id="32_2qewb"]
+[ext_resource type="Texture2D" uid="uid://ckd3pd1l6mq1w" path="res://burger states/29.png" id="33_rma2r"]
+[ext_resource type="Texture2D" uid="uid://cm3etmwm2icat" path="res://burger states/30.png" id="34_g488v"]
+[ext_resource type="Texture2D" uid="uid://b0qptogtmbmno" path="res://burger states/31.png" id="35_5xnxe"]
+[ext_resource type="Texture2D" uid="uid://dgw2u4ff414yd" path="res://burger states/32.png" id="36_1lswy"]
+[ext_resource type="Texture2D" uid="uid://c2rvdqdax8ifr" path="res://burger states/33.png" id="37_f2vgi"]
+[ext_resource type="Texture2D" uid="uid://v867sipcausq" path="res://burger states/34.png" id="38_4br08"]
+[ext_resource type="Texture2D" uid="uid://dq6ujnbouorwt" path="res://scoob/PinkScoob.webp" id="39_rjx78"]
+[ext_resource type="Texture2D" uid="uid://c342r6ejkgjhv" path="res://scoob/CozyScoob.webp" id="40_u0wbh"]
+[ext_resource type="Texture2D" uid="uid://dbvxmpe0s6aak" path="res://scoob/GwenScoob.webp" id="41_ukv7g"]
+[ext_resource type="Texture2D" uid="uid://bc0x2oy2my32m" path="res://ingredients/green fondant.png" id="49_rjx78"]
+[ext_resource type="Texture2D" uid="uid://cfsib3cbx8fhr" path="res://ingredients/yellow fondant.png" id="50_u0wbh"]
+[ext_resource type="Texture2D" uid="uid://0qopomkibpca" path="res://ingredients/vanilla frosting.png" id="64_ukv7g"]
+[ext_resource type="Texture2D" uid="uid://74ub6hsvq3s5" path="res://ingredients/chocolate frosting.png" id="65_67154"]
+[ext_resource type="Texture2D" uid="uid://dlg0vdcyoypes" path="res://ingredients/burger top bun.png" id="66_ig34a"]
+[ext_resource type="Texture2D" uid="uid://cbh6iow2r2ij6" path="res://ingredients/BurgerPlate.png" id="67_qoulm"]
+[ext_resource type="AudioStream" uid="uid://b5tk1uyl574tg" path="res://321087__benjaminnelan__door-locked.wav" id="78_7402p"]
+
+[sub_resource type="LabelSettings" id="LabelSettings_mnua3"]
+font = ExtResource("6_7vgwn")
+font_size = 50
+font_color = Color(0.5882353, 0, 0, 1)
+
+[sub_resource type="LabelSettings" id="LabelSettings_7402p"]
+font = ExtResource("6_7vgwn")
+font_size = 34
+outline_size = 10
+outline_color = Color(0, 0, 0, 1)
+
+[node name="GameScreen" type="Node2D" node_paths=PackedStringArray("KitchenPhoto", "ClosetPhoto", "KitchenTitle", "ClosetTitle", "Character", "RecipeVideoPlayer", "RecipePopup", "BurgerGameContainer", "BurgerPlate", "InstructionLabel", "VanillaFrostingButton", "ChocolateFrostingButton", "PlateButton", "TopBunButton", "MusicPlayer", "ClickSound", "LockedSound", "RestartButton", "RewindButton", "SkipButton", "PauseButton", "ClosetButton", "NextOutfitButton", "BackToKitchenButton", "RecipeBookButton", "BurgerRecipeButton", "RecipeButtons", "IngredientButtons")]
+script = ExtResource("1_bdpf8")
+KitchenPhoto = NodePath("KitchenBackground")
+ClosetPhoto = NodePath("ClosetBackground")
+KitchenTitle = NodePath("KitchenBackground/The Scoob Kitchen Title")
+ClosetTitle = NodePath("ClosetBackground/The Scoob Closet Title")
+Character = NodePath("Character")
+RecipeVideoPlayer = NodePath("RecipeVideoPlayer")
+RecipePopup = NodePath("RecipePopup")
+BurgerGameContainer = NodePath("KitchenBackground/BurgerGameContainer")
+BurgerPlate = NodePath("KitchenBackground/BurgerGameContainer/BurgerPlate")
+InstructionLabel = NodePath("KitchenBackground/InstructionLabel")
+VanillaFrostingButton = NodePath("KitchenBackground/BurgerGameContainer/VanillaFrosting")
+ChocolateFrostingButton = NodePath("KitchenBackground/BurgerGameContainer/ChocolateFrosting")
+PlateButton = NodePath("KitchenBackground/BurgerGameContainer/Plate")
+TopBunButton = NodePath("KitchenBackground/BurgerGameContainer/Top Burger Bun")
+MusicPlayer = NodePath("MusicPlayer")
+ClickSound = NodePath("ClickSound")
+LockedSound = NodePath("LockedSound")
+RestartButton = NodePath("RecipeVideoPlayer/VideoControlPanel/RestartButton")
+RewindButton = NodePath("RecipeVideoPlayer/VideoControlPanel/RewindButton")
+SkipButton = NodePath("RecipeVideoPlayer/VideoControlPanel/SkipButton")
+PauseButton = NodePath("RecipeVideoPlayer/VideoControlPanel/PauseButton")
+PlayIcon = ExtResource("16_yhqab")
+PauseIcon = ExtResource("15_yhqab")
+ClosetButton = NodePath("KitchenBackground/ClosetButton")
+NextOutfitButton = NodePath("ClosetBackground/NextOutfitButton")
+BackToKitchenButton = NodePath("ClosetBackground/BackToKitchenButton")
+RecipeBookButton = NodePath("RecipeBookButton")
+BurgerRecipeButton = NodePath("RecipePopup/BurgerCakeButton")
+RecipeButtons = [NodePath("RecipePopup/BurgerCakeButton"), NodePath("RecipePopup/ComingSoonButton"), NodePath("RecipePopup/ComingSoonButton2"), NodePath("RecipePopup/ComingSoonButton3"), NodePath("RecipePopup/ComingSoonButton4"), NodePath("RecipePopup/ComingSoonButton5"), NodePath("RecipePopup/ComingSoonButton6"), NodePath("RecipePopup/ComingSoonButton7"), NodePath("RecipePopup/ComingSoonButton8"), NodePath("RecipePopup/ComingSoonButton9"), NodePath("RecipePopup/ComingSoonButton10"), NodePath("RecipePopup/ComingSoonButton11")]
+RecipeStreams = Array[VideoStream]([])
+IngredientButtons = [NodePath("KitchenBackground/BurgerGameContainer/Flour"), NodePath("KitchenBackground/BurgerGameContainer/Cocoa"), NodePath("KitchenBackground/BurgerGameContainer/BakingSoda"), NodePath("KitchenBackground/BurgerGameContainer/Sugar"), NodePath("KitchenBackground/BurgerGameContainer/Salt"), NodePath("KitchenBackground/BurgerGameContainer/Butter"), NodePath("KitchenBackground/BurgerGameContainer/Buttermilk"), NodePath("KitchenBackground/BurgerGameContainer/EggCarton"), NodePath("KitchenBackground/BurgerGameContainer/EggCarton"), NodePath("KitchenBackground/BurgerGameContainer/EggCarton"), NodePath("KitchenBackground/BurgerGameContainer/EggCarton"), NodePath("KitchenBackground/BurgerGameContainer/EggCarton"), NodePath("KitchenBackground/BurgerGameContainer/EggCarton"), NodePath("KitchenBackground/BurgerGameContainer/EggCarton"), NodePath("KitchenBackground/BurgerGameContainer/EggCarton"), NodePath("KitchenBackground/BurgerGameContainer/Whisk"), NodePath("KitchenBackground/BurgerGameContainer/Milk"), NodePath("KitchenBackground/BurgerGameContainer/VanillaPowder"), NodePath("KitchenBackground/BurgerGameContainer/Butter"), NodePath("KitchenBackground/BurgerGameContainer/Whisk"), NodePath("KitchenBackground/BurgerGameContainer/Colorant"), NodePath("KitchenBackground/BurgerGameContainer/Whisk"), NodePath("KitchenBackground/BurgerGameContainer/Milk"), NodePath("KitchenBackground/BurgerGameContainer/ChocolatePowder"), NodePath("KitchenBackground/BurgerGameContainer/Butter"), NodePath("KitchenBackground/BurgerGameContainer/Whisk"), NodePath("KitchenBackground/BurgerGameContainer/Plate"), NodePath("KitchenBackground/BurgerGameContainer/VanillaFrosting"), NodePath("KitchenBackground/BurgerGameContainer/ChocolateFrosting"), NodePath("KitchenBackground/BurgerGameContainer/GreenFondant"), NodePath("KitchenBackground/BurgerGameContainer/YellowFondant"), NodePath("KitchenBackground/BurgerGameContainer/OrangeFondant"), NodePath("KitchenBackground/BurgerGameContainer/Top Burger Bun"), NodePath("KitchenBackground/BurgerGameContainer/Oats")]
+BurgerStages = Array[Texture2D]([ExtResource("4_3g4gq"), ExtResource("5_4lbta"), ExtResource("6_ev5id"), ExtResource("7_rbq5v"), ExtResource("8_hlsgn"), ExtResource("9_2blok"), ExtResource("10_rhe5m"), ExtResource("11_q6c7k"), ExtResource("11_7402p"), ExtResource("12_q6c7k"), ExtResource("13_qlu6c"), ExtResource("14_e5e65"), ExtResource("15_nly72"), ExtResource("16_buco2"), ExtResource("17_rjx78"), ExtResource("18_u0wbh"), ExtResource("20_67154"), ExtResource("21_ig34a"), ExtResource("22_qoulm"), ExtResource("23_giua3"), ExtResource("24_cpoxy"), ExtResource("25_wsiwa"), ExtResource("26_h6w67"), ExtResource("27_jr7n1"), ExtResource("28_jyg81"), ExtResource("29_w8anh"), ExtResource("30_jnm8a"), ExtResource("31_6fitq"), ExtResource("32_2qewb"), ExtResource("33_rma2r"), ExtResource("34_g488v"), ExtResource("35_5xnxe"), ExtResource("36_1lswy"), ExtResource("37_f2vgi"), ExtResource("38_4br08")])
+StepInstructions = PackedStringArray("Let\'s make a BURGER CAKE! Grab the flour!", "Now add the cocoa powder", "Add some baking powder for the fluff", "Add sugar ;)", "Sprinkle some salt on it", "Add butter", "And buttermilk", "Add an egg", "Oh, actually a few more eggs", "6 eggs", "5", "4 ", "3", "2", "1", "Great, now mix it!", "Grab some milk for the frosting while this bakes", "Add the Vanilla Cake Mix", "And the butter", "Now mix!", "Add some colorant for that burger bun look", "Mix it in", "Grab some milk for the chocolate frosting", "Add the Chocolate Cake Mix", "Don\'t forget the butter!", "Let\'s mix it one more time!", "The cake sponges are hot & ready! Grab a plate.", "We\'ll use vanilla frosting for the buns", "And chocolate frosting for the burger patty", "Add the green fondant for the lettuce", "Yellow fondant for the cheese", "And orange fondant for the sauce", "Grab the top bun", "And sprinke some oats on it", "Good job! The burger cake looks fabulous!")
+KitchenPosition = Vector2(650.66, 400.415)
+ClosetPosition = Vector2(650.66, 400.415)
+KitchenCropRegion = Rect2(0, 0, 351.53, 517.42)
+Outfits = Array[Texture2D]([ExtResource("39_rjx78"), ExtResource("40_u0wbh"), ExtResource("41_ukv7g")])
+
+[node name="Wallpaper" type="TextureRect" parent="."]
+custom_minimum_size = Vector2(1280, 720)
+offset_right = 1280.0
+offset_bottom = 720.0
+texture = ExtResource("1_mnua3")
+stretch_mode = 1
+
+[node name="PolaroidShadow" type="ColorRect" parent="Wallpaper"]
+layout_mode = 0
+offset_left = 230.0
+offset_top = 16.0
+offset_right = 1070.0
+offset_bottom = 716.0
+color = Color(0, 0, 0, 0.3137255)
+
+[node name="PolaroidFrame" type="ColorRect" parent="Wallpaper"]
+layout_mode = 0
+offset_left = 215.0
+offset_top = 10.0
+offset_right = 1065.0
+offset_bottom = 710.0
+color = Color(4.703934, 1.0805684, 1.5897918, 1)
+
+[node name="PaperOverlay" type="TextureRect" parent="Wallpaper/PolaroidFrame"]
+modulate = Color(1, 1, 1, 0.41568628)
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("2_qufq8")
+expand_mode = 1
+
+[node name="KitchenBackground" type="TextureRect" parent="."]
+custom_minimum_size = Vector2(800, 600)
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 240.0
+offset_top = 40.0
+offset_right = 1040.0
+offset_bottom = 640.0
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+texture = ExtResource("1_vau7r")
+expand_mode = 1
+stretch_mode = 5
+
+[node name="The Scoob Kitchen Title" type="Label" parent="KitchenBackground"]
+layout_mode = 0
+offset_left = 187.17499
+offset_top = 601.19
+offset_right = 635.17505
+offset_bottom = 682.19
+text = "The Scoob Kitchen"
+label_settings = SubResource("LabelSettings_mnua3")
+
+[node name="InstructionLabel" type="Label" parent="KitchenBackground"]
+layout_mode = 0
+offset_left = 1.0
+offset_top = 14.0
+offset_right = 799.0
+offset_bottom = 158.0
+label_settings = SubResource("LabelSettings_7402p")
+horizontal_alignment = 1
+
+[node name="BurgerGameContainer" type="Control" parent="KitchenBackground"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="BurgerPlate" type="Sprite2D" parent="KitchenBackground/BurgerGameContainer"]
+position = Vector2(177.27, 498.26)
+scale = Vector2(0.1, 0.1)
+
+[node name="Whisk" type="TextureButton" parent="KitchenBackground/BurgerGameContainer"]
+layout_mode = 0
+offset_left = 238.00003
+offset_top = 439.00003
+offset_right = 274.68777
+offset_bottom = 472.4139
+rotation = 5.9620447
+scale = Vector2(2.775, 2.775)
+texture_normal = ExtResource("11_f2b0i")
+
+[node name="Cocoa" type="TextureButton" parent="KitchenBackground/BurgerGameContainer"]
+layout_mode = 0
+offset_left = 631.00006
+offset_top = 307.00003
+offset_right = 731.00006
+offset_bottom = 407.00003
+scale = Vector2(0.785, 0.785)
+texture_normal = ExtResource("20_ev5id")
+
+[node name="VanillaPowder" type="TextureButton" parent="KitchenBackground/BurgerGameContainer"]
+layout_mode = 0
+offset_left = 743.99994
+offset_top = 363.99997
+offset_right = 1644.0
+offset_bottom = 1264.0
+scale = Vector2(0.06, 0.06)
+texture_normal = ExtResource("21_rbq5v")
+
+[node name="ChocolatePowder" type="TextureButton" parent="KitchenBackground/BurgerGameContainer"]
+layout_mode = 0
+offset_left = 699.0
+offset_top = 343.00003
+offset_right = 1679.0
+offset_bottom = 1323.0
+scale = Vector2(0.06, 0.06)
+texture_normal = ExtResource("22_hlsgn")
+
+[node name="OrangeFondant" type="TextureButton" parent="KitchenBackground/BurgerGameContainer"]
+layout_mode = 0
+offset_left = 705.0
+offset_top = 384.99997
+offset_right = 1601.0
+offset_bottom = 1281.0
+rotation = -0.13962634
+scale = Vector2(0.045, 0.045)
+texture_normal = ExtResource("23_2blok")
+
+[node name="GreenFondant" type="TextureButton" parent="KitchenBackground/BurgerGameContainer"]
+layout_mode = 0
+offset_left = 631.0
+offset_top = 378.0
+offset_right = 1527.0
+offset_bottom = 1274.0
+rotation = -0.13962634
+scale = Vector2(0.045, 0.045)
+texture_normal = ExtResource("49_rjx78")
+
+[node name="YellowFondant" type="TextureButton" parent="KitchenBackground/BurgerGameContainer"]
+layout_mode = 0
+offset_left = 664.00006
+offset_top = 387.0
+offset_right = 1560.0
+offset_bottom = 1283.0
+rotation = -0.27576202
+scale = Vector2(0.045, 0.045)
+texture_normal = ExtResource("50_u0wbh")
+
+[node name="Shelf2" type="TextureButton" parent="KitchenBackground/BurgerGameContainer"]
+layout_mode = 0
+offset_left = 650.0
+offset_top = 186.0
+offset_right = 1383.0
+offset_bottom = 253.21443
+scale = Vector2(0.205, 0.205)
+texture_normal = ExtResource("17_8roi7")
+stretch_mode = 0
+
+[node name="Colorant" type="TextureButton" parent="KitchenBackground/BurgerGameContainer"]
+layout_mode = 0
+offset_left = 663.0
+offset_top = 148.0
+offset_right = 1175.0
+offset_bottom = 660.0
+scale = Vector2(0.095, 0.095)
+texture_normal = ExtResource("14_yluqd")
+
+[node name="BakingSoda" type="TextureButton" parent="KitchenBackground/BurgerGameContainer"]
+layout_mode = 0
+offset_left = 726.0
+offset_top = 155.0
+offset_right = 766.0
+offset_bottom = 195.0
+scale = Vector2(1.455, 1.455)
+texture_normal = ExtResource("15_l1y6u")
+
+[node name="Butter" type="TextureButton" parent="KitchenBackground/BurgerGameContainer"]
+layout_mode = 0
+offset_left = 195.0
+offset_top = 408.0
+offset_right = 235.0
+offset_bottom = 440.0
+scale = Vector2(1.685, 1.685)
+texture_normal = ExtResource("16_y8rfx")
+
+[node name="Shelf" type="TextureButton" parent="KitchenBackground/BurgerGameContainer"]
+layout_mode = 0
+offset_left = 644.00006
+offset_top = 281.0
+offset_right = 1386.5239
+offset_bottom = 347.66663
+scale = Vector2(0.21, 0.21)
+texture_normal = ExtResource("17_8roi7")
+stretch_mode = 0
+
+[node name="Flour" type="TextureButton" parent="KitchenBackground/BurgerGameContainer"]
+layout_mode = 0
+offset_left = 637.0
+offset_top = 220.0
+offset_right = 677.0
+offset_bottom = 260.0
+scale = Vector2(2.36, 2.36)
+texture_normal = ExtResource("17_je37n")
+
+[node name="Sugar" type="TextureButton" parent="KitchenBackground/BurgerGameContainer"]
+layout_mode = 0
+offset_left = 691.00006
+offset_top = 220.0
+offset_right = 731.00006
+offset_bottom = 260.0
+scale = Vector2(2.445, 2.445)
+texture_normal = ExtResource("18_3g4gq")
+
+[node name="Oats" type="TextureButton" parent="KitchenBackground/BurgerGameContainer"]
+layout_mode = 0
+offset_left = 756.0
+offset_top = 266.00003
+offset_right = 2335.0
+offset_bottom = 1246.0
+scale = Vector2(0.025, 0.025)
+texture_normal = ExtResource("19_4lbta")
+
+[node name="EggCarton" type="TextureButton" parent="KitchenBackground/BurgerGameContainer"]
+layout_mode = 0
+offset_left = 223.0
+offset_top = 361.0
+offset_right = 255.0
+offset_bottom = 393.0
+scale = Vector2(2.36, 2.36)
+texture_normal = ExtResource("13_c0ejx")
+
+[node name="Buttermilk" type="TextureButton" parent="KitchenBackground/BurgerGameContainer"]
+layout_mode = 0
+offset_left = 171.0
+offset_top = 352.0
+offset_right = 203.0
+offset_bottom = 393.94482
+scale = Vector2(2.205, 2.205)
+texture_normal = ExtResource("12_8roi7")
+
+[node name="Milk" type="TextureButton" parent="KitchenBackground/BurgerGameContainer"]
+layout_mode = 0
+offset_left = 122.0
+offset_top = 367.0
+offset_right = 154.0
+offset_bottom = 399.0
+scale = Vector2(2.56, 2.56)
+texture_normal = ExtResource("26_yluqd")
+
+[node name="Salt" type="TextureButton" parent="KitchenBackground/BurgerGameContainer"]
+layout_mode = 0
+offset_left = 756.0
+offset_top = 148.0
+offset_right = 793.60156
+offset_bottom = 189.94482
+rotation = 0.0418879
+scale = Vector2(1.635, 1.635)
+texture_normal = ExtResource("27_l1y6u")
+
+[node name="VanillaFrosting" type="TextureButton" parent="KitchenBackground/BurgerGameContainer"]
+layout_mode = 0
+offset_left = 23.0
+offset_top = 557.0
+offset_right = 447.0
+offset_bottom = 907.0
+rotation = -0.27401668
+scale = Vector2(0.215, 0.215)
+texture_normal = ExtResource("64_ukv7g")
+
+[node name="ChocolateFrosting" type="TextureButton" parent="KitchenBackground/BurgerGameContainer"]
+layout_mode = 0
+offset_left = 96.00001
+offset_top = 469.99994
+offset_right = 520.00006
+offset_bottom = 819.99994
+rotation = 1.7645279
+scale = Vector2(0.215, 0.215)
+texture_normal = ExtResource("65_67154")
+
+[node name="Top Burger Bun" type="TextureButton" parent="KitchenBackground/BurgerGameContainer"]
+layout_mode = 0
+offset_left = 311.0
+offset_top = 302.0
+offset_right = 811.0
+offset_bottom = 802.0
+scale = Vector2(0.23, 0.23)
+texture_normal = ExtResource("66_ig34a")
+
+[node name="Plate" type="TextureButton" parent="KitchenBackground/BurgerGameContainer"]
+layout_mode = 0
+offset_left = 326.0
+offset_top = 327.0
+offset_right = 365.262
+offset_bottom = 366.11438
+scale = Vector2(2.71, 2.71)
+texture_normal = ExtResource("67_qoulm")
+
+[node name="ClosetButton" type="TextureButton" parent="KitchenBackground"]
+layout_mode = 0
+offset_left = 807.06995
+offset_top = 404.705
+offset_right = 2630.0708
+offset_bottom = 2324.7058
+scale = Vector2(0.14, 0.14)
+texture_normal = ExtResource("7_8wqyk")
+texture_pressed = ExtResource("7_8wqyk")
+texture_hover = ExtResource("7_8wqyk")
+texture_disabled = ExtResource("7_8wqyk")
+texture_focused = ExtResource("7_8wqyk")
+
+[node name="ClosetBackground" type="TextureRect" parent="."]
+visible = false
+offset_left = 240.0
+offset_top = 40.0
+offset_right = 1040.0
+offset_bottom = 640.0
+texture = ExtResource("5_0n56p")
+expand_mode = 1
+
+[node name="NextOutfitButton" type="TextureButton" parent="ClosetBackground"]
+layout_mode = 0
+offset_left = 559.99994
+offset_top = 465.0
+offset_right = 1230.0
+offset_bottom = 1445.0
+rotation = 1.7680185
+scale = Vector2(0.055, 0.055)
+texture_normal = ExtResource("6_hubxm")
+
+[node name="BackToKitchenButton" type="TextureButton" parent="ClosetBackground"]
+layout_mode = 0
+offset_left = 834.23
+offset_top = 393.91
+offset_right = 2133.2305
+offset_bottom = 2313.914
+scale = Vector2(0.155, 0.155)
+texture_normal = ExtResource("13_s7woo")
+
+[node name="The Scoob Closet Title" type="Label" parent="ClosetBackground"]
+visible = false
+layout_mode = 0
+offset_left = 187.17499
+offset_top = 601.19
+offset_right = 635.17505
+offset_bottom = 682.19
+text = "The Scoob Closet"
+label_settings = SubResource("LabelSettings_mnua3")
+
+[node name="Character" type="Sprite2D" parent="."]
+position = Vector2(650.66, 400.415)
+scale = Vector2(0.925, 0.925)
+texture = ExtResource("5_7vgwn")
+region_enabled = true
+region_rect = Rect2(0, 0, 351.53, 517.42)
+
+[node name="RecipeBookButton" type="TextureButton" parent="."]
+offset_left = 5.0
+offset_top = 6.84
+offset_right = 1378.3333
+offset_bottom = 1926.8402
+scale = Vector2(0.16, 0.16)
+texture_normal = ExtResource("7_8jmft")
+texture_pressed = ExtResource("7_8jmft")
+texture_hover = ExtResource("7_8jmft")
+texture_disabled = ExtResource("7_8jmft")
+texture_focused = ExtResource("7_8jmft")
+
+[node name="RecipePopup" type="TextureRect" parent="."]
+visible = false
+offset_left = 94.0
+offset_top = 24.0
+offset_right = 3671.049
+offset_bottom = 2274.0
+scale = Vector2(0.305, 0.305)
+texture = ExtResource("11_vlf8u")
+
+[node name="CloseMenuButton" type="TextureButton" parent="RecipePopup"]
+layout_mode = 0
+offset_left = 3403.2786
+offset_top = 62.29508
+offset_right = 3560.1216
+offset_bottom = 180.32785
+scale = Vector2(6, 6)
+texture_normal = ExtResource("12_78ypk")
+
+[node name="BurgerCakeButton" type="TextureButton" parent="RecipePopup"]
+layout_mode = 0
+offset_left = 111.47541
+offset_top = 298.3606
+offset_right = 1391.4755
+offset_bottom = 1018.36066
+scale = Vector2(1.4, 1.4)
+texture_normal = ExtResource("16_r4uab")
+
+[node name="ComingSoonButton" type="TextureButton" parent="RecipePopup"]
+layout_mode = 0
+offset_left = 895.0819
+offset_top = 298.36072
+offset_right = 2175.082
+offset_bottom = 1018.3609
+scale = Vector2(1.4, 1.4)
+texture_normal = ExtResource("17_wggpi")
+
+[node name="ComingSoonButton2" type="TextureButton" parent="RecipePopup"]
+layout_mode = 0
+offset_left = 104.91804
+offset_top = 875.40985
+offset_right = 1384.9161
+offset_bottom = 1595.4097
+scale = Vector2(1.4, 1.4)
+texture_normal = ExtResource("17_wggpi")
+
+[node name="ComingSoonButton3" type="TextureButton" parent="RecipePopup"]
+layout_mode = 0
+offset_left = 895.082
+offset_top = 878.6885
+offset_right = 2175.082
+offset_bottom = 1598.6885
+scale = Vector2(1.4, 1.4)
+texture_normal = ExtResource("17_wggpi")
+
+[node name="ComingSoonButton4" type="TextureButton" parent="RecipePopup"]
+layout_mode = 0
+offset_left = 101.63937
+offset_top = 1459.0162
+offset_right = 1381.6393
+offset_bottom = 2179.0166
+scale = Vector2(1.4, 1.4)
+texture_normal = ExtResource("17_wggpi")
+
+[node name="ComingSoonButton5" type="TextureButton" parent="RecipePopup"]
+layout_mode = 0
+offset_left = 895.0817
+offset_top = 1459.0161
+offset_right = 2175.0818
+offset_bottom = 2179.016
+scale = Vector2(1.4, 1.4)
+texture_normal = ExtResource("17_wggpi")
+
+[node name="ComingSoonButton6" type="TextureButton" parent="RecipePopup"]
+layout_mode = 0
+offset_left = 1872.1311
+offset_top = 304.918
+offset_right = 3152.1309
+offset_bottom = 1024.918
+scale = Vector2(1.4, 1.4)
+texture_normal = ExtResource("17_wggpi")
+
+[node name="ComingSoonButton7" type="TextureButton" parent="RecipePopup"]
+layout_mode = 0
+offset_left = 2662.295
+offset_top = 301.6393
+offset_right = 3942.295
+offset_bottom = 1021.6393
+scale = Vector2(1.4, 1.4)
+texture_normal = ExtResource("17_wggpi")
+
+[node name="ComingSoonButton8" type="TextureButton" parent="RecipePopup"]
+layout_mode = 0
+offset_left = 1872.1311
+offset_top = 881.9672
+offset_right = 3152.1309
+offset_bottom = 1601.9672
+scale = Vector2(1.4, 1.4)
+texture_normal = ExtResource("17_wggpi")
+
+[node name="ComingSoonButton9" type="TextureButton" parent="RecipePopup"]
+layout_mode = 0
+offset_left = 2662.2947
+offset_top = 885.2459
+offset_right = 3942.2947
+offset_bottom = 1605.246
+scale = Vector2(1.4, 1.4)
+texture_normal = ExtResource("17_wggpi")
+
+[node name="ComingSoonButton10" type="TextureButton" parent="RecipePopup"]
+layout_mode = 0
+offset_left = 1872.1311
+offset_top = 1468.8522
+offset_right = 3152.1313
+offset_bottom = 2188.852
+scale = Vector2(1.4, 1.4)
+texture_normal = ExtResource("17_wggpi")
+
+[node name="ComingSoonButton11" type="TextureButton" parent="RecipePopup"]
+layout_mode = 0
+offset_left = 2659.0164
+offset_top = 1465.5736
+offset_right = 3939.0164
+offset_bottom = 2185.5732
+scale = Vector2(1.4, 1.4)
+texture_normal = ExtResource("17_wggpi")
+
+[node name="RecipeVideoPlayer" type="VideoStreamPlayer" parent="."]
+visible = false
+offset_left = 32.0
+offset_top = 43.0
+offset_right = 1252.0
+offset_bottom = 671.0
+size_flags_horizontal = 4
+stream = ExtResource("17_s7woo")
+expand = true
+
+[node name="VideoControlPanel" type="Control" parent="RecipeVideoPlayer"]
+anchors_preset = 0
+offset_left = 468.0
+offset_top = 585.0
+offset_right = 629.0
+offset_bottom = 625.0
+scale = Vector2(1.5, 1.5)
+
+[node name="PauseButton" type="TextureButton" parent="RecipeVideoPlayer/VideoControlPanel"]
+layout_mode = 0
+offset_left = 83.0
+offset_top = 5.0
+offset_right = 97.0
+offset_bottom = 19.0
+scale = Vector2(1.5, 1.5)
+texture_normal = ExtResource("15_yhqab")
+
+[node name="RestartButton" type="TextureButton" parent="RecipeVideoPlayer/VideoControlPanel"]
+layout_mode = 0
+offset_left = 24.0
+offset_top = 5.0
+offset_right = 38.0
+offset_bottom = 19.0
+scale = Vector2(1.5, 1.5)
+texture_normal = ExtResource("16_s7woo")
+
+[node name="CloseButton" type="TextureButton" parent="RecipeVideoPlayer/VideoControlPanel"]
+layout_mode = 0
+offset_left = 142.0
+offset_top = 5.0
+offset_right = 156.0
+offset_bottom = 19.0
+scale = Vector2(1.5, 1.5)
+texture_normal = ExtResource("12_78ypk")
+
+[node name="RewindButton" type="TextureButton" parent="RecipeVideoPlayer/VideoControlPanel"]
+layout_mode = 1
+anchors_preset = -1
+anchor_right = 0.093
+offset_left = 54.0
+offset_top = 5.0
+offset_right = 53.027
+offset_bottom = 19.0
+scale = Vector2(1.5, 1.5)
+texture_normal = ExtResource("17_r4uab")
+
+[node name="SkipButton" type="TextureButton" parent="RecipeVideoPlayer/VideoControlPanel"]
+layout_mode = 0
+offset_left = 113.0
+offset_top = 5.0
+offset_right = 127.0
+offset_bottom = 19.0
+scale = Vector2(1.5, 1.5)
+texture_normal = ExtResource("18_wggpi")
+
+[node name="RecipeVideoPlayerOverlay" type="TextureRect" parent="."]
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="MusicPlayer" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("11_rccfg")
+volume_db = -20.0
+autoplay = true
+
+[node name="ClickSound" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("12_hubxm")
+
+[node name="LockedSound" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("78_7402p")
+
+[node name="StartOverlay" type="Control" parent="."]
+layout_mode = 3
+anchors_preset = 0
+offset_left = 281.0
+offset_top = 190.0
+offset_right = 478.0
+offset_bottom = 350.0
+
+[connection signal="pressed" from="KitchenBackground/ClosetButton" to="." method="OnClosetPressed"]
+[connection signal="pressed" from="ClosetBackground/BackToKitchenButton" to="." method="OnBackToKitchenPressed"]
+[connection signal="pressed" from="RecipeBookButton" to="." method="OnRecipePressed"]
+[connection signal="pressed" from="RecipePopup/CloseMenuButton" to="." method="OnCloseRecipePressed"]
+[connection signal="pressed" from="RecipePopup/BurgerCakeButton" to="." method="StartBurgerCakeRecipe"]
+[connection signal="pressed" from="RecipePopup/ComingSoonButton" to="." method="PlayLockedSound"]
+[connection signal="pressed" from="RecipePopup/ComingSoonButton2" to="." method="PlayLockedSound"]
+[connection signal="pressed" from="RecipePopup/ComingSoonButton3" to="." method="PlayLockedSound"]
+[connection signal="pressed" from="RecipePopup/ComingSoonButton4" to="." method="PlayLockedSound"]
+[connection signal="pressed" from="RecipePopup/ComingSoonButton5" to="." method="PlayLockedSound"]
+[connection signal="pressed" from="RecipePopup/ComingSoonButton6" to="." method="PlayLockedSound"]
+[connection signal="pressed" from="RecipePopup/ComingSoonButton7" to="." method="PlayLockedSound"]
+[connection signal="pressed" from="RecipePopup/ComingSoonButton8" to="." method="PlayLockedSound"]
+[connection signal="pressed" from="RecipePopup/ComingSoonButton9" to="." method="PlayLockedSound"]
+[connection signal="pressed" from="RecipeVideoPlayer/VideoControlPanel/PauseButton" to="." method="OnPauseVideoPressed"]
+[connection signal="pressed" from="RecipeVideoPlayer/VideoControlPanel/RestartButton" to="." method="OnRestartVideoPressed"]
+[connection signal="pressed" from="RecipeVideoPlayer/VideoControlPanel/CloseButton" to="." method="OnCloseVideoPressed"]
+[connection signal="pressed" from="RecipeVideoPlayer/VideoControlPanel/RewindButton" to="." method="OnRewindVideoPressed"]
+[connection signal="pressed" from="RecipeVideoPlayer/VideoControlPanel/SkipButton" to="." method="OnSkipVideoPressed"]
