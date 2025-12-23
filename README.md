@@ -38,5 +38,7 @@ The system is built on software engineering principles designed to ensure scalab
 
 ---
 
-## 📜 License
-This project is licensed under the [MIT License](LICENSE).
+## 📜 Credits & License
+* **Developer & Artist:** Created by **Scoobxie**.
+* **Visual Assets:** Handcrafted via **IbisPaint** (No reuse or redistribution permitted).
+* **Software:** Open-source under the **[MIT License](LICENSE)**.
