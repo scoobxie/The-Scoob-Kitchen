@@ -1,0 +1,18 @@
+# Godot-specific ignores
+.godot/
+.import/
+export_preset.cfg
+*.translation
+
+# Mono/C# specific ignores
+.mono/
+bin/
+obj/
+*.swp
+
+# OS generated files (chestii inutile de la Windows/Mac)
+.DS_Store
+Thumbs.db
+
+# Godot crash logs
+*.log
